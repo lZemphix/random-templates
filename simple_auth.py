@@ -20,3 +20,4 @@ password = "some_password"
 password_hash, salt = hash_password(password)
 
 authorization(password, salt, password_hash)
+
